@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("./fotograflar/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #333;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 160px; 
+    background-color: #333;
+    color: orange;
+    border-right: 3px solid rgb(128, 128, 128); 
+    border-radius: 8px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 8px; 
+}
+
+.sidebar a {
+    color: orange;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: orange;
+}
+
+.sidebar {
+    float: left;
+    clear: both;
+    width: 160px; 
+    background-color: #333;
+    color: orange;
+    border-right: 3px solid gray; 
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar-right {
+    float: right;
+    width: 160px; 
+    background-color: #333;
+    color: orange;
+    border-left: 3px solid gray; 
+    padding: 10px; 
+    height: 100vh;
+    overflow-y: auto;
+}
+
+
+.sidebar-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-right li {
+    padding: 8px; 
+}
+
+.sidebar-right a {
+    color: orange;
+    text-decoration: none;
+}
+
+.sidebar-right a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    border-top: 10px solid gray; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    background-color: gray;
+    padding: 20px;
+}
+
+.sidebar-right {
+    width: 130px;
+    background-color: #333;
+    padding: 16px;
+    position: absolute;
+    top: 20;
+    right: 0;
+    height: 96vh;
+    border-radius: 8px;
+    border-right: rgb(128, 128, 128);
+
+}
+
